@@ -1,0 +1,208 @@
+
+@font-face {
+        font-family: Bjorn;
+        src: url(Bjorn\ Regular.otf);
+}
+
+
+@media (min-width: 320px) {
+        #intro .name {
+                font-size: 1.3rem;
+        }
+
+        #intro .post {
+                font-size: 0.6rem;
+        }
+}
+
+
+@media (min-width: 768px) {
+        #intro .name {
+                font-size: 1.7rem;
+        }
+
+        #intro .post {
+                font-size: 1rem;
+        }
+}
+
+@media (min-width: 992px) {
+        #intro .name {
+                font-size: 2.5rem;
+        }
+
+        #intro .post {
+                font-size: 1.3rem;
+        }
+}
+
+@media (min-width: 1200px) {
+        #intro .name {
+                font-size: 3rem;
+        }
+
+        #intro .post {
+                font-size: 1.3rem;
+        }
+}
+
+@media (min-width: 320px) {
+        #projects .projects-title, .about-title, .skills-title, .contact-title {
+                font-size: 1.1rem;
+        }
+
+        #projects .projects-sub, .skills-sub, .contact-sub {
+                font-size: 0.7rem;
+        }
+}
+
+
+@media (min-width: 768px) {
+        #projects .projects-title, .about-title, .skills-title, .contact-title {
+                font-size: 1.5rem;
+        }
+
+        #projects .projects-sub, .skills-sub, .contact-sub {
+                font-size: 1rem;
+        }
+}
+
+@media (min-width: 992px) {
+        #projects .projects-title, .about-title, .skills-title, .contact-title {
+                font-size: 2.3rem;
+        }
+
+        #projects .projects-sub, .skills-sub, .contact-sub {
+                font-size: 1.1rem;
+        }
+}
+
+@media (min-width: 1200px) {
+        #projects .projects-title, .about-title, .skills-title, .contact-title {
+                font-size: 2.7rem;
+        }
+
+        #projects .projects-sub, .skills-sub, .contact-sub {
+                font-size: 1.1rem;
+        }
+}
+
+@media (min-width: 320px) {
+        #projects .pt {
+                font-size: 0.9rem;
+        }
+
+        .p-d, #cont-form, #cont-btn, .footer-link {
+                font-size: 0.7rem;
+        }
+}
+
+@media (min-width: 768px) {
+        #projects .pt {
+                font-size: 1.3rem;
+        }
+
+        .p-d, #cont-form, #cont-btn, .footer-link {
+                font-size: 1rem;
+        }
+}
+
+
+body {
+        background-color: black;
+}
+
+#intro .name {
+        font-family: Bjorn;
+        letter-spacing: 0.2rem;    
+}
+
+#intro .post {
+        font-family: 'Actor', sans-serif;
+        letter-spacing: 0.5rem;
+}
+
+.projects-title, .about-title, .skills-title, .contact-title {
+              font-family: Bjorn;
+              color: #00dbdb;
+              letter-spacing: 0.5rem;
+}
+
+.projects-sub, .skills-sub, .contact-sub {
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 0.3rem;
+        color: gray;
+}
+
+#projects, #about, #skills, #contact {
+        padding-top: 6rem;
+}
+
+
+.pt {
+        font-family: 'Lato', sans-serif;
+        color: #00dbdb;
+        letter-spacing: 0.2rem;
+        font-weight: bold;
+}
+
+.p-d {
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 0.2rem;
+        color: gray;
+}
+
+#cont-btn {
+        color: black;
+        background-color: #00dbdb;
+}
+
+#cont-btn:hover {
+        color: white;
+        background-color: black;
+        border-color: white;
+}
+
+#cont-form {
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 0.2rem;
+}
+
+.fab {
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        color: gray
+}
+
+.footer-link {
+        padding: 20px;
+        color: gray;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 0.2rem;
+        text-align: center;
+}
+
+a:hover {
+        color: #fff;
+}
+
+a:link {
+        text-decoration: none;
+}
+      
+a:visited {
+        text-decoration: none;
+}
+
+a:hover >  i
+{
+    color: #00dbdb;
+}
+
+.footer-name {
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 0.2rem;
+        font-size: 0.7rem;
+}
+
