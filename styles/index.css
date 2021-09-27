@@ -13,6 +13,10 @@
         #intro .post {
                 font-size: 0.6rem;
         }
+
+        #name-post {
+                margin-bottom: 12rem;
+        }
 }
 
 
@@ -23,6 +27,9 @@
 
         #intro .post {
                 font-size: 1rem;
+        }
+        #name-post {
+                margin-bottom: 0;
         }
 }
 
@@ -36,9 +43,9 @@
         }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1250px) {
         #intro .name {
-                font-size: 3rem;
+                font-size: 3.2rem;
         }
 
         #intro .post {
