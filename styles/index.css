@@ -114,6 +114,18 @@
         }
 }
 
+@media (min-width: 320px) {
+        .footer-name {
+                font-size: 0.4rem;
+        }
+}
+
+@media (min-width: 768px) {
+        .footer-name {
+                font-size: 0.7rem;
+        }
+}
+
 
 body {
         background-color: black;
@@ -210,6 +222,5 @@ a:hover >  i
 .footer-name {
         font-family: 'Lato', sans-serif;
         letter-spacing: 0.2rem;
-        font-size: 0.7rem;
 }
 
