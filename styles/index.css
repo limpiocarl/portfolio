@@ -57,10 +57,16 @@
   .contact-title {
     font-size: 1.1rem;
   }
+  #caps-projects .projects-title1 {
+    font-size: 1.1rem;
+  }
 
   #projects .projects-sub,
   .skills-sub,
   .contact-sub {
+    font-size: 0.7rem;
+  }
+  #caps-projects .projects-sub1 {
     font-size: 0.7rem;
   }
 }
@@ -72,10 +78,16 @@
   .contact-title {
     font-size: 1.5rem;
   }
+  #caps-projects .projects-title1 {
+    font-size: 1.5rem;
+  }
 
   #projects .projects-sub,
   .skills-sub,
   .contact-sub {
+    font-size: 1rem;
+  }
+  #caps-projects .projects-sub1 {
     font-size: 1rem;
   }
 }
@@ -87,10 +99,16 @@
   .contact-title {
     font-size: 2.3rem;
   }
+  #caps-projects .projects-title1 {
+    font-size: 2.3rem;
+  }
 
   #projects .projects-sub,
   .skills-sub,
   .contact-sub {
+    font-size: 1.1rem;
+  }
+  #caps-projects .projects-sub1 {
     font-size: 1.1rem;
   }
 }
@@ -100,6 +118,9 @@
   .about-title,
   .skills-title,
   .contact-title {
+    font-size: 2.7rem;
+  }
+  #caps-projects .projects-title1 {
     font-size: 2.7rem;
   }
 
@@ -121,6 +142,9 @@
   .footer-link {
     font-size: 0.7rem;
   }
+  .proj-link {
+    font-size: 0.7rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -132,6 +156,9 @@
   #cont-form,
   #cont-btn,
   .footer-link {
+    font-size: 1rem;
+  }
+  .proj-link {
     font-size: 1rem;
   }
 }
@@ -165,7 +192,8 @@ body {
 .projects-title,
 .about-title,
 .skills-title,
-.contact-title {
+.contact-title,
+.projects-title1 {
   font-family: Bjorn;
   color: #00dbdb;
   letter-spacing: 0.5rem;
@@ -173,7 +201,8 @@ body {
 
 .projects-sub,
 .skills-sub,
-.contact-sub {
+.contact-sub,
+.projects-sub1 {
   font-family: "Lato", sans-serif;
   letter-spacing: 0.3rem;
   color: gray;
@@ -233,6 +262,11 @@ body {
   text-align: center;
   color: gray;
 }
+.fab-b {
+  font-size: 23px;
+  text-align: center;
+  color: gray;
+}
 
 .footer-link {
   padding: 20px;
@@ -261,4 +295,12 @@ a:hover > i {
 .footer-name {
   font-family: "Lato", sans-serif;
   letter-spacing: 0.2rem;
+}
+
+.proj-link {
+  color: gray;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  border-bottom: 1px solid white;
 }
